@@ -1,3 +1,24 @@
-.home{
-    background-color: antiquewhite;
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+    /* the border or padding is counted in the element, basically to control space */
+}
+.nav-bar{
+    background-color: blue;
+    display: flex;
+    height:75px;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    justify-content: space-evenly;
+    text-align: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    
+}
+
+.Menu1{
+    color:aliceblue;
+    
 }
