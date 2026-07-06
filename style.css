@@ -13,23 +13,49 @@
     height: 80px;
     }
 .intro{
-    height: 550px;
-    width:999px;
-    padding: 1rem;
-    padding:1.5rem;
-    background-color: rgba(0, 0, 0, 0.886);
+    border-radius: 13%;
+    place-items: center;
+    margin-left:550px;
+    margin-top: 45px;
+    height: 500px;
+    width:450px;
+    background-color: rgba(0, 0, 0, 0.886); 
 }
 h1{
-    margin-left:50px;
     color:goldenrod ;
     font-size: 55px;
+    line-height: 6rem;
+    padding-top: 1rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .bio{
-    margin-left:55px;
-    margin-top:2rem;
-    height:300px;
-    width: 600px;
-    font-size: 20px;
+    font-size: larger;
+    margin-top: 15px;
+    margin-left: 50px; 
+    margin-right: 50px;  
     color:white;
+}
+.work{
+    font-size: 55px;
+    background-color: aqua;
+    width: 450px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 70px;
+}
+.samples{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-top: 50px;
+    color: black;
+   
+}
+.no{
+    background-color: burlywood;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    line-height: 5rem;
+    border-radius: 8%;
 }
