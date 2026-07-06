@@ -1,24 +1,35 @@
 *{
-    margin:0;
-    font-family: Arial;
-    border:border-box;
-    /* the border or padding is counted in the element, basically to control space */
+    margin: 0;
+    padding: 0;
 }
 .nav-bar{
-    background-color: blue;
     display: flex;
-    height:75px;
-    text-decoration: underline;
-    text-decoration-color: aliceblue;
-    justify-content: space-evenly;
-    text-align: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
-    
+    line-height: 5rem;
+    gap: 2rem;
+    padding-left: 4rem;
+    background-color: black;
+    color: white;
+    font-size:larger;
+    height: 80px;
+    }
+.intro{
+    height: 550px;
+    width:999px;
+    padding: 1rem;
+    padding:1.5rem;
+    background-color: rgba(0, 0, 0, 0.886);
 }
-
-.Menu1{
-    color:aliceblue;
-    
+h1{
+    margin-left:50px;
+    color:goldenrod ;
+    font-size: 55px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bio{
+    margin-left:55px;
+    margin-top:2rem;
+    height:300px;
+    width: 600px;
+    font-size: 20px;
+    color:white;
 }
