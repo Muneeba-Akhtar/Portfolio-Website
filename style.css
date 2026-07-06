@@ -21,7 +21,7 @@
     width:450px;
     background-color: rgba(0, 0, 0, 0.886); 
 }
-h1{
+.who{
     color:goldenrod ;
     font-size: 55px;
     line-height: 6rem;
@@ -58,4 +58,26 @@ h1{
     text-align: center;
     line-height: 5rem;
     border-radius: 8%;
+}
+.skill{
+    margin-top: 80px;
+    color:mediumslateblue;
+    font-size: 45px;
+    line-height: 5rem;
+    background-color: rgb(205, 43, 43);
+    width: 190px;
+    margin-left: 150px;
+    text-align: center;
+    border-radius: 10%;
+}
+.listings{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.list{
+    width: 200px;
+    background-color: aquamarine;
+    flex-wrap: wrap;
 }
