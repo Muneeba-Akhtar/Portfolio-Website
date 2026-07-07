@@ -5,7 +5,7 @@
 .nav-bar{
     display: flex;
     line-height: 5rem;
-    gap: 2rem;
+    gap: 2rem;     
     padding-left: 4rem;
     background-color: black;
     color: white;
@@ -73,11 +73,10 @@
 .listings{
     font-size: 30px;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
 }
 .list{
-    width: 200px;
+    display: flex;
     background-color: aquamarine;
     flex-wrap: wrap;
+    gap: 10px;
 }
