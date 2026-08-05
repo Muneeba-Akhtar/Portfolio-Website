@@ -1,84 +1,58 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: burlywood;
 }
 .nav-bar{
+    border-bottom: 2px solid lightgray;
     display: flex;
     line-height: 5rem;
     gap: 2rem;     
     padding-left: 4rem;
-    background-color: black;
-    color: white;
+    color: black;
     font-size:larger;
     height: 80px;
+   }
+    .nav-bar p:hover{
+        text-decoration: underline black;
+        font-size: larger;
     }
-.intro{
-    border-radius: 13%;
-    place-items: center;
-    margin-left:550px;
-    margin-top: 45px;
-    height: 500px;
-    width:450px;
-    background-color: rgba(0, 0, 0, 0.886); 
-}
-.who{
-    color:goldenrod ;
-    font-size: 55px;
-    line-height: 6rem;
-    padding-top: 1rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.bio{
-    font-size: larger;
-    margin-top: 15px;
-    margin-left: 50px; 
-    margin-right: 50px;  
-    color:white;
-}
-.work{
-    font-size: 55px;
-    background-color: aqua;
-    width: 450px;
-    text-align: center;
-    margin-left: 550px;
-    margin-top: 70px;
-}
-.samples{
-    display: flex;
-    justify-content: space-around;
-    font-size: 40px;
-    margin-top: 50px;
-    color: black;
-   
-}
-.no{
-    background-color: burlywood;
-    height: 450px;
-    width: 350px;
-    text-align: center;
-    line-height: 5rem;
-    border-radius: 8%;
-}
-.skill{
-    margin-top: 80px;
-    color:mediumslateblue;
-    font-size: 45px;
-    line-height: 5rem;
-    background-color: rgb(205, 43, 43);
-    width: 190px;
-    margin-left: 150px;
-    text-align: center;
-    border-radius: 10%;
-}
-.list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    font-size: 30px;
-}
-.number{
-    width: 20%;
-    background-color: chocolate;
-}
+    .home{
+       border-bottom: 2px solid lightgray;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+    .about h1{
+        text-align: center;
+        font-size: 50px;
+        color: rgb(76, 92, 45);
+    }
+    .about p{
+        color: black;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-right: 150px;
+        padding-left: 150px;
+        }
+     .skill-section{
+        text-align: center;
+        margin-top: 50px;
 
+        }
+        .skill-section h1{
+            font-size: 50px;
+        color: rgb(76, 92, 45);
+        }
+   .list{
+        display: flex;
+        flex-wrap:wrap;
+        margin-top: 80px;
+        font-size: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+        gap: 5rem;
+       border-bottom: 2px solid lightgray;
 
+    }
