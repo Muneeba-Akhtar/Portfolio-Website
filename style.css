@@ -17,6 +17,55 @@
         text-decoration: underline black;
         font-size: larger;
     }
-    
+    .home{
+        height: 600px;
+        background-color: rgba(0, 0, 0, 0.893);
+        border-bottom: 2px solid lightgray;
+    }
+    .text{
+        padding-top: 90px; 
+        padding-left: 150px;
+        width: 500px;
+        height: 300px;    
+    }
+    .text h1{
+        color: rgb(213, 151, 213);
+        font-size: 70px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .text p{
+        margin-top: 35px;
+        font-size: 20px;
+        text-align:left;
+        color: whitesmoke;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .skill-section{
+        background-color: rgba(0, 0, 0, 0.893);
+        height: 600px;
+    }
+    .tech{
+        
+        padding-top: 100px;
+        padding-left: 170px;
+    }
+    .content{
+        height: 350px;
+        width: 300px;
+        border: 2px solid rgb(193, 237, 126);
+        border-radius: 2%;
+        text-align: center;
+    }
+    .content h1{
+       color: rgb(213, 151, 213);
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .list{
+        color: whitesmoke;
+        margin-top: 20px;
+        gap: 5rem;
+    }
+
     
      
