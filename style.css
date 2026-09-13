@@ -43,6 +43,7 @@
     .skill-section{
         background-color: rgba(0, 0, 0, 0.893);
         height: 600px;
+        display: flex;
     }
     .tech{
         
@@ -53,7 +54,7 @@
         height: 350px;
         width: 300px;
         border: 2px solid rgb(193, 237, 126);
-        border-radius: 2%;
+        border-radius: 4%;
         text-align: center;
     }
     .content h1{
@@ -64,7 +65,8 @@
     .list{
         color: whitesmoke;
         margin-top: 20px;
-        gap: 5rem;
+        font-size: 25px;
+        line-height: 2.5rem;
     }
 
     
