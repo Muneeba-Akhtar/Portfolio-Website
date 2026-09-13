@@ -1,58 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: burlywood;
 }
 .nav-bar{
+    background-color: rgba(0, 0, 0, 0.893);
     border-bottom: 2px solid lightgray;
     display: flex;
     line-height: 5rem;
-    gap: 2rem;     
+    gap: 4rem;     
     padding-left: 4rem;
-    color: black;
-    font-size:larger;
+    color: rgb(193, 237, 126);
+    font-size:20px;
     height: 80px;
    }
     .nav-bar p:hover{
         text-decoration: underline black;
         font-size: larger;
     }
-    .home{
-       border-bottom: 2px solid lightgray;
-        height: 400px;
-        margin-top: 50px;
-        margin-left: 80px;
-        margin-right: 80px;
-      }
-    .about h1{
-        text-align: center;
-        font-size: 50px;
-        color: rgb(76, 92, 45);
-    }
-    .about p{
-        color: black;
-        font-size: 20px;
-        padding-top: 30px;
-        padding-right: 150px;
-        padding-left: 150px;
-        }
-     .skill-section{
-        text-align: center;
-        margin-top: 50px;
-
-        }
-        .skill-section h1{
-            font-size: 50px;
-        color: rgb(76, 92, 45);
-        }
-   .list{
-        display: flex;
-        flex-wrap:wrap;
-        margin-top: 80px;
-        font-size: 30px;
-        margin-left: 200px;
-        margin-right: 200px;
-        gap: 5rem;
-       border-bottom: 2px solid lightgray;
-
-    }
+    
+    
+     
